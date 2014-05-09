@@ -22,6 +22,7 @@
 		CDB1DA6A191C67EE00EB156B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB1DA4E191C67EE00EB156B /* CoreData.framework */; };
 		CDB1DA72191C67EE00EB156B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDB1DA70191C67EE00EB156B /* InfoPlist.strings */; };
 		CDB1DA74191C67EE00EB156B /* SFTransportationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB1DA73191C67EE00EB156B /* SFTransportationTests.m */; };
+		CDB1DA7E191C694600EB156B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB1DA7D191C694600EB156B /* MainStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		CDB1DA6F191C67EE00EB156B /* SFTransportationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SFTransportationTests-Info.plist"; sourceTree = "<group>"; };
 		CDB1DA71191C67EE00EB156B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CDB1DA73191C67EE00EB156B /* SFTransportationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFTransportationTests.m; sourceTree = "<group>"; };
+		CDB1DA7D191C694600EB156B /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 			children = (
 				CDB1DA59191C67EE00EB156B /* AppDelegate.h */,
 				CDB1DA5A191C67EE00EB156B /* AppDelegate.m */,
+				CDB1DA7D191C694600EB156B /* MainStoryboard.storyboard */,
 				CDB1DA5F191C67EE00EB156B /* Images.xcassets */,
 				CDB1DA5C191C67EE00EB156B /* SFTransportation.xcdatamodeld */,
 				CDB1DA51191C67EE00EB156B /* Supporting Files */,
@@ -228,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDB1DA7E191C694600EB156B /* MainStoryboard.storyboard in Resources */,
 				CDB1DA55191C67EE00EB156B /* InfoPlist.strings in Resources */,
 				CDB1DA60191C67EE00EB156B /* Images.xcassets in Resources */,
 			);
@@ -447,6 +451,7 @@
 				CDB1DA79191C67EE00EB156B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDB1DA7A191C67EE00EB156B /* Build configuration list for PBXNativeTarget "SFTransportationTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +460,7 @@
 				CDB1DA7C191C67EE00EB156B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
