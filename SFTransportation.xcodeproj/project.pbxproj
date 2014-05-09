@@ -83,6 +83,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD8DDB3E191C6C4500D4F9D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD8DDB41191C6C5D00D4F9D7 /* Storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CD8DDB3F191C6C4E00D4F9D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CD8DDB40191C6C5300D4F9D7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CD8DDB41191C6C5D00D4F9D7 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CDB1DA7D191C694600EB156B /* MainStoryboard.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		CD8DDB42191C6C6600D4F9D7 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				CDB1DA59191C67EE00EB156B /* AppDelegate.h */,
+				CDB1DA5A191C67EE00EB156B /* AppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
 		CDB1DA3C191C67EE00EB156B = {
 			isa = PBXGroup;
 			children = (
@@ -117,9 +156,10 @@
 		CDB1DA50191C67EE00EB156B /* SFTransportation */ = {
 			isa = PBXGroup;
 			children = (
-				CDB1DA59191C67EE00EB156B /* AppDelegate.h */,
-				CDB1DA5A191C67EE00EB156B /* AppDelegate.m */,
-				CDB1DA7D191C694600EB156B /* MainStoryboard.storyboard */,
+				CD8DDB42191C6C6600D4F9D7 /* App Delegate */,
+				CD8DDB40191C6C5300D4F9D7 /* Controller */,
+				CD8DDB3F191C6C4E00D4F9D7 /* Model */,
+				CD8DDB3E191C6C4500D4F9D7 /* View */,
 				CDB1DA5F191C67EE00EB156B /* Images.xcassets */,
 				CDB1DA5C191C67EE00EB156B /* SFTransportation.xcdatamodeld */,
 				CDB1DA51191C67EE00EB156B /* Supporting Files */,
