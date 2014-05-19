@@ -7,6 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD501892191C8E7B001A399E /* BART.png in Resources */ = {isa = PBXBuildFile; fileRef = CD50188D191C8E7B001A399E /* BART.png */; };
+		CD501893191C8E7B001A399E /* Caltrain.png in Resources */ = {isa = PBXBuildFile; fileRef = CD50188E191C8E7B001A399E /* Caltrain.png */; };
+		CD501894191C8E7B001A399E /* SamTrans.png in Resources */ = {isa = PBXBuildFile; fileRef = CD50188F191C8E7B001A399E /* SamTrans.png */; };
+		CD501895191C8E7B001A399E /* SF-MUNI.png in Resources */ = {isa = PBXBuildFile; fileRef = CD501890191C8E7B001A399E /* SF-MUNI.png */; };
+		CD501896191C8E7B001A399E /* VTA.png in Resources */ = {isa = PBXBuildFile; fileRef = CD501891191C8E7B001A399E /* VTA.png */; };
+		CD50189E191C94CC001A399E /* SFTrans.png in Resources */ = {isa = PBXBuildFile; fileRef = CD50189D191C94CC001A399E /* SFTrans.png */; };
+		CD5018A3191C9680001A399E /* leftMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = CD5018A1191C9680001A399E /* leftMenu.png */; };
+		CD5018A4191C9680001A399E /* leftMenu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD5018A2191C9680001A399E /* leftMenu@2x.png */; };
+		CD5018A6191C9D9C001A399E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5018A5191C9D9C001A399E /* CoreLocation.framework */; };
+		CD5018A8191C9DA1001A399E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5018A7191C9DA1001A399E /* MapKit.framework */; };
+		CD5018B7191CA3BA001A399E /* CaltrainMapCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5018B6191CA3BA001A399E /* CaltrainMapCell.m */; };
+		CD5018BB191CA72A001A399E /* caltrain_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CD5018BA191CA72A001A399E /* caltrain_logo.png */; };
+		CD5018BD191CA8FD001A399E /* disclosure_indicator.png in Resources */ = {isa = PBXBuildFile; fileRef = CD5018BC191CA8FD001A399E /* disclosure_indicator.png */; };
+		CD5018C0191CAB50001A399E /* CaltrainStationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5018BF191CAB50001A399E /* CaltrainStationCell.m */; };
+		CD5018C3191CAEED001A399E /* CaltrainSearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5018C2191CAEED001A399E /* CaltrainSearchCell.m */; };
+		CD5018C5191CB1A2001A399E /* home_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CD5018C4191CB1A2001A399E /* home_logo.png */; };
+		CD5018C7191CB207001A399E /* work_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CD5018C6191CB207001A399E /* work_logo.png */; };
+		CD5018CA191CB4BF001A399E /* Caltrain.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5018C9191CB4BF001A399E /* Caltrain.m */; };
+		CD5018DF191CB52E001A399E /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5018CD191CB52D001A399E /* AFHTTPRequestOperation.m */; };
+		CD5018E0191CB52E001A399E /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5018CF191CB52D001A399E /* AFHTTPRequestOperationManager.m */; };
+		CD5018E1191CB52E001A399E /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5018D1191CB52D001A399E /* AFHTTPSessionManager.m */; };
+		CD5018E2191CB52E001A399E /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5018D4191CB52D001A399E /* AFNetworkReachabilityManager.m */; };
+		CD5018E3191CB52E001A399E /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5018D6191CB52D001A399E /* AFSecurityPolicy.m */; };
+		CD5018E4191CB52E001A399E /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5018D8191CB52E001A399E /* AFURLConnectionOperation.m */; };
+		CD5018E5191CB52E001A399E /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5018DA191CB52E001A399E /* AFURLRequestSerialization.m */; };
+		CD5018E6191CB52E001A399E /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5018DC191CB52E001A399E /* AFURLResponseSerialization.m */; };
+		CD5018E7191CB52E001A399E /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5018DE191CB52E001A399E /* AFURLSessionManager.m */; };
+		CD5018E9191CB53C001A399E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = CD5018E8191CB53C001A399E /* LICENSE */; };
+		CD5018EF191CB7F4001A399E /* TransDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5018EE191CB7F4001A399E /* TransDataProvider.m */; };
+		CD5018F9191CC3C1001A399E /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5018F8191CC3C1001A399E /* libxml2.dylib */; };
+		CD501902191CC755001A399E /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5018FF191CC755001A399E /* XMLReader.m */; };
+		CD501905191CCEF2001A399E /* CaltrainStopsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD501904191CCEF2001A399E /* CaltrainStopsViewController.m */; };
+		CD501908191CD74A001A399E /* CaltrainStopsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD501907191CD74A001A399E /* CaltrainStopsCell.m */; };
+		CD50190B191CDB82001A399E /* save_star.png in Resources */ = {isa = PBXBuildFile; fileRef = CD501909191CDB82001A399E /* save_star.png */; };
+		CD50190C191CDB82001A399E /* unsave_star.png in Resources */ = {isa = PBXBuildFile; fileRef = CD50190A191CDB82001A399E /* unsave_star.png */; };
+		CD63E3CA191E036B00274481 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CD63E3C9191E036B00274481 /* MBProgressHUD.m */; };
+		CD63E3CE191E0B7A00274481 /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = CD63E3CD191E0B7A00274481 /* Route.m */; };
+		CD63E3D1191E0B8300274481 /* Station.m in Sources */ = {isa = PBXBuildFile; fileRef = CD63E3D0191E0B8300274481 /* Station.m */; };
+		CD63E3D4191E0BB600274481 /* NextDepature.m in Sources */ = {isa = PBXBuildFile; fileRef = CD63E3D3191E0BB600274481 /* NextDepature.m */; };
+		CD8DDB47191C7A5400D4F9D7 /* UIImage+ImageWithUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8DDB46191C7A5400D4F9D7 /* UIImage+ImageWithUIView.m */; };
+		CD8DDB4A191C7A6800D4F9D7 /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8DDB49191C7A6800D4F9D7 /* ECSlidingViewController.m */; };
+		CD8DDB4E191C7D3A00D4F9D7 /* InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8DDB4D191C7D3A00D4F9D7 /* InitialViewController.m */; };
+		CD8DDB54191C7D7A00D4F9D7 /* LeftMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8DDB51191C7D7A00D4F9D7 /* LeftMenuCell.m */; };
+		CD8DDB55191C7D7A00D4F9D7 /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8DDB53191C7D7A00D4F9D7 /* LeftMenuViewController.m */; };
+		CD8DDB69191C835D00D4F9D7 /* CaltrainNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8DDB68191C835D00D4F9D7 /* CaltrainNavigationViewController.m */; };
+		CD8DDB6C191C836D00D4F9D7 /* CaltrainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8DDB6B191C836D00D4F9D7 /* CaltrainViewController.m */; };
 		CDB1DA49191C67EE00EB156B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB1DA48191C67EE00EB156B /* Foundation.framework */; };
 		CDB1DA4B191C67EE00EB156B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB1DA4A191C67EE00EB156B /* CoreGraphics.framework */; };
 		CDB1DA4D191C67EE00EB156B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB1DA4C191C67EE00EB156B /* UIKit.framework */; };
@@ -23,6 +69,19 @@
 		CDB1DA72191C67EE00EB156B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDB1DA70191C67EE00EB156B /* InfoPlist.strings */; };
 		CDB1DA74191C67EE00EB156B /* SFTransportationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB1DA73191C67EE00EB156B /* SFTransportationTests.m */; };
 		CDB1DA7E191C694600EB156B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB1DA7D191C694600EB156B /* MainStoryboard.storyboard */; };
+		CDBF7AB91921D12F00A49A6D /* stop_times.txt in Resources */ = {isa = PBXBuildFile; fileRef = CDBF7AB81921D12F00A49A6D /* stop_times.txt */; };
+		CDBF7AC31921D51800A49A6D /* agency.txt in Resources */ = {isa = PBXBuildFile; fileRef = CDBF7ABA1921D51800A49A6D /* agency.txt */; };
+		CDBF7AC41921D51800A49A6D /* calendar_dates.txt in Resources */ = {isa = PBXBuildFile; fileRef = CDBF7ABB1921D51800A49A6D /* calendar_dates.txt */; };
+		CDBF7AC51921D51800A49A6D /* calendar.txt in Resources */ = {isa = PBXBuildFile; fileRef = CDBF7ABC1921D51800A49A6D /* calendar.txt */; };
+		CDBF7AC61921D51800A49A6D /* fare_attributes.txt in Resources */ = {isa = PBXBuildFile; fileRef = CDBF7ABD1921D51800A49A6D /* fare_attributes.txt */; };
+		CDBF7AC71921D51800A49A6D /* fare_rules.txt in Resources */ = {isa = PBXBuildFile; fileRef = CDBF7ABE1921D51800A49A6D /* fare_rules.txt */; };
+		CDBF7AC81921D51800A49A6D /* routes.txt in Resources */ = {isa = PBXBuildFile; fileRef = CDBF7ABF1921D51800A49A6D /* routes.txt */; };
+		CDBF7AC91921D51800A49A6D /* shapes.txt in Resources */ = {isa = PBXBuildFile; fileRef = CDBF7AC01921D51800A49A6D /* shapes.txt */; };
+		CDBF7ACA1921D51800A49A6D /* stops.txt in Resources */ = {isa = PBXBuildFile; fileRef = CDBF7AC11921D51800A49A6D /* stops.txt */; };
+		CDBF7ACB1921D51800A49A6D /* trips.txt in Resources */ = {isa = PBXBuildFile; fileRef = CDBF7AC21921D51800A49A6D /* trips.txt */; };
+		CDBF7AD11921D5BB00A49A6D /* SFTransDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBF7AD01921D5BB00A49A6D /* SFTransDataProvider.m */; };
+		CDBF7ADA1921DF4F00A49A6D /* SFStopTime.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBF7AD91921DF4F00A49A6D /* SFStopTime.m */; };
+		CDBF7AE01921DF8D00A49A6D /* SFStop.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBF7ADF1921DF8D00A49A6D /* SFStop.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +95,82 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD50188D191C8E7B001A399E /* BART.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BART.png; sourceTree = "<group>"; };
+		CD50188E191C8E7B001A399E /* Caltrain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Caltrain.png; sourceTree = "<group>"; };
+		CD50188F191C8E7B001A399E /* SamTrans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SamTrans.png; sourceTree = "<group>"; };
+		CD501890191C8E7B001A399E /* SF-MUNI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SF-MUNI.png"; sourceTree = "<group>"; };
+		CD501891191C8E7B001A399E /* VTA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VTA.png; sourceTree = "<group>"; };
+		CD50189D191C94CC001A399E /* SFTrans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SFTrans.png; sourceTree = "<group>"; };
+		CD5018A1191C9680001A399E /* leftMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftMenu.png; sourceTree = "<group>"; };
+		CD5018A2191C9680001A399E /* leftMenu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leftMenu@2x.png"; sourceTree = "<group>"; };
+		CD5018A5191C9D9C001A399E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CD5018A7191C9DA1001A399E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CD5018B5191CA3BA001A399E /* CaltrainMapCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaltrainMapCell.h; sourceTree = "<group>"; };
+		CD5018B6191CA3BA001A399E /* CaltrainMapCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaltrainMapCell.m; sourceTree = "<group>"; };
+		CD5018BA191CA72A001A399E /* caltrain_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = caltrain_logo.png; sourceTree = "<group>"; };
+		CD5018BC191CA8FD001A399E /* disclosure_indicator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disclosure_indicator.png; sourceTree = "<group>"; };
+		CD5018BE191CAB50001A399E /* CaltrainStationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaltrainStationCell.h; sourceTree = "<group>"; };
+		CD5018BF191CAB50001A399E /* CaltrainStationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaltrainStationCell.m; sourceTree = "<group>"; };
+		CD5018C1191CAEED001A399E /* CaltrainSearchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaltrainSearchCell.h; sourceTree = "<group>"; };
+		CD5018C2191CAEED001A399E /* CaltrainSearchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaltrainSearchCell.m; sourceTree = "<group>"; };
+		CD5018C4191CB1A2001A399E /* home_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_logo.png; sourceTree = "<group>"; };
+		CD5018C6191CB207001A399E /* work_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = work_logo.png; sourceTree = "<group>"; };
+		CD5018C8191CB4BF001A399E /* Caltrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Caltrain.h; sourceTree = "<group>"; };
+		CD5018C9191CB4BF001A399E /* Caltrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Caltrain.m; sourceTree = "<group>"; };
+		CD5018CC191CB52D001A399E /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		CD5018CD191CB52D001A399E /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		CD5018CE191CB52D001A399E /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		CD5018CF191CB52D001A399E /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		CD5018D0191CB52D001A399E /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		CD5018D1191CB52D001A399E /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		CD5018D2191CB52D001A399E /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		CD5018D3191CB52D001A399E /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		CD5018D4191CB52D001A399E /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		CD5018D5191CB52D001A399E /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		CD5018D6191CB52D001A399E /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		CD5018D7191CB52E001A399E /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		CD5018D8191CB52E001A399E /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		CD5018D9191CB52E001A399E /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		CD5018DA191CB52E001A399E /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		CD5018DB191CB52E001A399E /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		CD5018DC191CB52E001A399E /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		CD5018DD191CB52E001A399E /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		CD5018DE191CB52E001A399E /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		CD5018E8191CB53C001A399E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		CD5018ED191CB7F4001A399E /* TransDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransDataProvider.h; sourceTree = "<group>"; };
+		CD5018EE191CB7F4001A399E /* TransDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransDataProvider.m; sourceTree = "<group>"; };
+		CD5018F6191CC399001A399E /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		CD5018F8191CC3C1001A399E /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		CD5018FE191CC755001A399E /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		CD5018FF191CC755001A399E /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+		CD501903191CCEF2001A399E /* CaltrainStopsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaltrainStopsViewController.h; sourceTree = "<group>"; };
+		CD501904191CCEF2001A399E /* CaltrainStopsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaltrainStopsViewController.m; sourceTree = "<group>"; };
+		CD501906191CD74A001A399E /* CaltrainStopsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaltrainStopsCell.h; sourceTree = "<group>"; };
+		CD501907191CD74A001A399E /* CaltrainStopsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaltrainStopsCell.m; sourceTree = "<group>"; };
+		CD501909191CDB82001A399E /* save_star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save_star.png; sourceTree = "<group>"; };
+		CD50190A191CDB82001A399E /* unsave_star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unsave_star.png; sourceTree = "<group>"; };
+		CD63E3C8191E036B00274481 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		CD63E3C9191E036B00274481 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		CD63E3CC191E0B7A00274481 /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Route.h; sourceTree = "<group>"; };
+		CD63E3CD191E0B7A00274481 /* Route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Route.m; sourceTree = "<group>"; };
+		CD63E3CF191E0B8300274481 /* Station.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Station.h; sourceTree = "<group>"; };
+		CD63E3D0191E0B8300274481 /* Station.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Station.m; sourceTree = "<group>"; };
+		CD63E3D2191E0BB600274481 /* NextDepature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextDepature.h; sourceTree = "<group>"; };
+		CD63E3D3191E0BB600274481 /* NextDepature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextDepature.m; sourceTree = "<group>"; };
+		CD8DDB45191C7A5400D4F9D7 /* UIImage+ImageWithUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithUIView.h"; sourceTree = "<group>"; };
+		CD8DDB46191C7A5400D4F9D7 /* UIImage+ImageWithUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithUIView.m"; sourceTree = "<group>"; };
+		CD8DDB48191C7A6800D4F9D7 /* ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingViewController.h; sourceTree = "<group>"; };
+		CD8DDB49191C7A6800D4F9D7 /* ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingViewController.m; sourceTree = "<group>"; };
+		CD8DDB4C191C7D3A00D4F9D7 /* InitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialViewController.h; sourceTree = "<group>"; };
+		CD8DDB4D191C7D3A00D4F9D7 /* InitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialViewController.m; sourceTree = "<group>"; };
+		CD8DDB50191C7D7A00D4F9D7 /* LeftMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuCell.h; sourceTree = "<group>"; };
+		CD8DDB51191C7D7A00D4F9D7 /* LeftMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuCell.m; sourceTree = "<group>"; };
+		CD8DDB52191C7D7A00D4F9D7 /* LeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuViewController.h; sourceTree = "<group>"; };
+		CD8DDB53191C7D7A00D4F9D7 /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuViewController.m; sourceTree = "<group>"; };
+		CD8DDB67191C835D00D4F9D7 /* CaltrainNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaltrainNavigationViewController.h; sourceTree = "<group>"; };
+		CD8DDB68191C835D00D4F9D7 /* CaltrainNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaltrainNavigationViewController.m; sourceTree = "<group>"; };
+		CD8DDB6A191C836D00D4F9D7 /* CaltrainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaltrainViewController.h; sourceTree = "<group>"; };
+		CD8DDB6B191C836D00D4F9D7 /* CaltrainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaltrainViewController.m; sourceTree = "<group>"; };
 		CDB1DA45191C67EE00EB156B /* SFTransportation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFTransportation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB1DA48191C67EE00EB156B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CDB1DA4A191C67EE00EB156B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +190,22 @@
 		CDB1DA71191C67EE00EB156B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CDB1DA73191C67EE00EB156B /* SFTransportationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFTransportationTests.m; sourceTree = "<group>"; };
 		CDB1DA7D191C694600EB156B /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CDBF7AB81921D12F00A49A6D /* stop_times.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stop_times.txt; sourceTree = "<group>"; };
+		CDBF7ABA1921D51800A49A6D /* agency.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = agency.txt; sourceTree = "<group>"; };
+		CDBF7ABB1921D51800A49A6D /* calendar_dates.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = calendar_dates.txt; sourceTree = "<group>"; };
+		CDBF7ABC1921D51800A49A6D /* calendar.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = calendar.txt; sourceTree = "<group>"; };
+		CDBF7ABD1921D51800A49A6D /* fare_attributes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fare_attributes.txt; sourceTree = "<group>"; };
+		CDBF7ABE1921D51800A49A6D /* fare_rules.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fare_rules.txt; sourceTree = "<group>"; };
+		CDBF7ABF1921D51800A49A6D /* routes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = routes.txt; sourceTree = "<group>"; };
+		CDBF7AC01921D51800A49A6D /* shapes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = shapes.txt; sourceTree = "<group>"; };
+		CDBF7AC11921D51800A49A6D /* stops.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stops.txt; sourceTree = "<group>"; };
+		CDBF7AC21921D51800A49A6D /* trips.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = trips.txt; sourceTree = "<group>"; };
+		CDBF7ACF1921D5BA00A49A6D /* SFTransDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTransDataProvider.h; sourceTree = "<group>"; };
+		CDBF7AD01921D5BB00A49A6D /* SFTransDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTransDataProvider.m; sourceTree = "<group>"; };
+		CDBF7AD81921DF4F00A49A6D /* SFStopTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFStopTime.h; sourceTree = "<group>"; };
+		CDBF7AD91921DF4F00A49A6D /* SFStopTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFStopTime.m; sourceTree = "<group>"; };
+		CDBF7ADE1921DF8D00A49A6D /* SFStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFStop.h; sourceTree = "<group>"; };
+		CDBF7ADF1921DF8D00A49A6D /* SFStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFStop.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +213,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD5018F9191CC3C1001A399E /* libxml2.dylib in Frameworks */,
+				CD5018A8191C9DA1001A399E /* MapKit.framework in Frameworks */,
+				CD5018A6191C9D9C001A399E /* CoreLocation.framework in Frameworks */,
 				CDB1DA4B191C67EE00EB156B /* CoreGraphics.framework in Frameworks */,
 				CDB1DA4F191C67EE00EB156B /* CoreData.framework in Frameworks */,
 				CDB1DA4D191C67EE00EB156B /* UIKit.framework in Frameworks */,
@@ -83,6 +237,127 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD501897191C8E83001A399E /* Transportation */ = {
+			isa = PBXGroup;
+			children = (
+				CD50188D191C8E7B001A399E /* BART.png */,
+				CD50188E191C8E7B001A399E /* Caltrain.png */,
+				CD50188F191C8E7B001A399E /* SamTrans.png */,
+				CD501890191C8E7B001A399E /* SF-MUNI.png */,
+				CD501891191C8E7B001A399E /* VTA.png */,
+			);
+			name = Transportation;
+			sourceTree = "<group>";
+		};
+		CD501898191C8E8C001A399E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CD501909191CDB82001A399E /* save_star.png */,
+				CD50190A191CDB82001A399E /* unsave_star.png */,
+				CD5018BC191CA8FD001A399E /* disclosure_indicator.png */,
+				CD5018BA191CA72A001A399E /* caltrain_logo.png */,
+				CD5018C4191CB1A2001A399E /* home_logo.png */,
+				CD5018C6191CB207001A399E /* work_logo.png */,
+				CD5018A1191C9680001A399E /* leftMenu.png */,
+				CD5018A2191C9680001A399E /* leftMenu@2x.png */,
+				CD50189D191C94CC001A399E /* SFTrans.png */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		CD5018B4191CA393001A399E /* Caltrain Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CD5018B5191CA3BA001A399E /* CaltrainMapCell.h */,
+				CD5018B6191CA3BA001A399E /* CaltrainMapCell.m */,
+				CD5018BE191CAB50001A399E /* CaltrainStationCell.h */,
+				CD5018BF191CAB50001A399E /* CaltrainStationCell.m */,
+				CD5018C1191CAEED001A399E /* CaltrainSearchCell.h */,
+				CD5018C2191CAEED001A399E /* CaltrainSearchCell.m */,
+				CD501906191CD74A001A399E /* CaltrainStopsCell.h */,
+				CD501907191CD74A001A399E /* CaltrainStopsCell.m */,
+			);
+			name = "Caltrain Cells";
+			sourceTree = "<group>";
+		};
+		CD5018CB191CB51F001A399E /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				CD5018E8191CB53C001A399E /* LICENSE */,
+				CD5018CC191CB52D001A399E /* AFHTTPRequestOperation.h */,
+				CD5018CD191CB52D001A399E /* AFHTTPRequestOperation.m */,
+				CD5018CE191CB52D001A399E /* AFHTTPRequestOperationManager.h */,
+				CD5018CF191CB52D001A399E /* AFHTTPRequestOperationManager.m */,
+				CD5018D0191CB52D001A399E /* AFHTTPSessionManager.h */,
+				CD5018D1191CB52D001A399E /* AFHTTPSessionManager.m */,
+				CD5018D2191CB52D001A399E /* AFNetworking.h */,
+				CD5018D3191CB52D001A399E /* AFNetworkReachabilityManager.h */,
+				CD5018D4191CB52D001A399E /* AFNetworkReachabilityManager.m */,
+				CD5018D5191CB52D001A399E /* AFSecurityPolicy.h */,
+				CD5018D6191CB52D001A399E /* AFSecurityPolicy.m */,
+				CD5018D7191CB52E001A399E /* AFURLConnectionOperation.h */,
+				CD5018D8191CB52E001A399E /* AFURLConnectionOperation.m */,
+				CD5018D9191CB52E001A399E /* AFURLRequestSerialization.h */,
+				CD5018DA191CB52E001A399E /* AFURLRequestSerialization.m */,
+				CD5018DB191CB52E001A399E /* AFURLResponseSerialization.h */,
+				CD5018DC191CB52E001A399E /* AFURLResponseSerialization.m */,
+				CD5018DD191CB52E001A399E /* AFURLSessionManager.h */,
+				CD5018DE191CB52E001A399E /* AFURLSessionManager.m */,
+			);
+			name = AFNetworking;
+			sourceTree = "<group>";
+		};
+		CD5018EB191CB6C5001A399E /* Caltrain */ = {
+			isa = PBXGroup;
+			children = (
+				CD5018C8191CB4BF001A399E /* Caltrain.h */,
+				CD5018C9191CB4BF001A399E /* Caltrain.m */,
+			);
+			name = Caltrain;
+			sourceTree = "<group>";
+		};
+		CD5018EC191CB7C4001A399E /* Data Provider */ = {
+			isa = PBXGroup;
+			children = (
+				CD5018ED191CB7F4001A399E /* TransDataProvider.h */,
+				CD5018EE191CB7F4001A399E /* TransDataProvider.m */,
+				CDBF7ACF1921D5BA00A49A6D /* SFTransDataProvider.h */,
+				CDBF7AD01921D5BB00A49A6D /* SFTransDataProvider.m */,
+			);
+			name = "Data Provider";
+			sourceTree = "<group>";
+		};
+		CD5018F2191CC36B001A399E /* XML Parser */ = {
+			isa = PBXGroup;
+			children = (
+				CD5018FE191CC755001A399E /* XMLReader.h */,
+				CD5018FF191CC755001A399E /* XMLReader.m */,
+			);
+			name = "XML Parser";
+			sourceTree = "<group>";
+		};
+		CD63E3C7191E035D00274481 /* Hud Class */ = {
+			isa = PBXGroup;
+			children = (
+				CD63E3C8191E036B00274481 /* MBProgressHUD.h */,
+				CD63E3C9191E036B00274481 /* MBProgressHUD.m */,
+			);
+			name = "Hud Class";
+			sourceTree = "<group>";
+		};
+		CD63E3CB191E0AFC00274481 /* Station */ = {
+			isa = PBXGroup;
+			children = (
+				CD63E3CC191E0B7A00274481 /* Route.h */,
+				CD63E3CD191E0B7A00274481 /* Route.m */,
+				CD63E3CF191E0B8300274481 /* Station.h */,
+				CD63E3D0191E0B8300274481 /* Station.m */,
+				CD63E3D2191E0BB600274481 /* NextDepature.h */,
+				CD63E3D3191E0BB600274481 /* NextDepature.m */,
+			);
+			name = Station;
+			sourceTree = "<group>";
+		};
 		CD8DDB3E191C6C4500D4F9D7 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +369,9 @@
 		CD8DDB3F191C6C4E00D4F9D7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CDBF7AB21921CFEF00A49A6D /* Core Data */,
+				CD63E3CB191E0AFC00274481 /* Station */,
+				CD5018EB191CB6C5001A399E /* Caltrain */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -101,6 +379,10 @@
 		CD8DDB40191C6C5300D4F9D7 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CD8DDB4B191C7D1E00D4F9D7 /* Initial View Controller */,
+				CD8DDB66191C830C00D4F9D7 /* Caltrain View Controller */,
+				CD5018EC191CB7C4001A399E /* Data Provider */,
+				CD8DDB4F191C7D4A00D4F9D7 /* Left Sliding Table */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -120,6 +402,80 @@
 				CDB1DA5A191C67EE00EB156B /* AppDelegate.m */,
 			);
 			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		CD8DDB43191C798F00D4F9D7 /* External Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				CD63E3C7191E035D00274481 /* Hud Class */,
+				CD5018F2191CC36B001A399E /* XML Parser */,
+				CD5018CB191CB51F001A399E /* AFNetworking */,
+				CD8DDB44191C7A3600D4F9D7 /* ECSlidingViewController */,
+			);
+			name = "External Libraries";
+			sourceTree = "<group>";
+		};
+		CD8DDB44191C7A3600D4F9D7 /* ECSlidingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CD8DDB45191C7A5400D4F9D7 /* UIImage+ImageWithUIView.h */,
+				CD8DDB46191C7A5400D4F9D7 /* UIImage+ImageWithUIView.m */,
+				CD8DDB48191C7A6800D4F9D7 /* ECSlidingViewController.h */,
+				CD8DDB49191C7A6800D4F9D7 /* ECSlidingViewController.m */,
+			);
+			name = ECSlidingViewController;
+			sourceTree = "<group>";
+		};
+		CD8DDB4B191C7D1E00D4F9D7 /* Initial View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CD8DDB4C191C7D3A00D4F9D7 /* InitialViewController.h */,
+				CD8DDB4D191C7D3A00D4F9D7 /* InitialViewController.m */,
+			);
+			name = "Initial View Controller";
+			sourceTree = "<group>";
+		};
+		CD8DDB4F191C7D4A00D4F9D7 /* Left Sliding Table */ = {
+			isa = PBXGroup;
+			children = (
+				CD8DDB50191C7D7A00D4F9D7 /* LeftMenuCell.h */,
+				CD8DDB51191C7D7A00D4F9D7 /* LeftMenuCell.m */,
+				CD8DDB52191C7D7A00D4F9D7 /* LeftMenuViewController.h */,
+				CD8DDB53191C7D7A00D4F9D7 /* LeftMenuViewController.m */,
+			);
+			name = "Left Sliding Table";
+			sourceTree = "<group>";
+		};
+		CD8DDB56191C7F1D00D4F9D7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CDBF7AB71921D12400A49A6D /* Caltrain Data */,
+				CD8DDB5B191C7F8400D4F9D7 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CD8DDB5B191C7F8400D4F9D7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CD501898191C8E8C001A399E /* Common */,
+				CD501897191C8E83001A399E /* Transportation */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		CD8DDB66191C830C00D4F9D7 /* Caltrain View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CD5018B4191CA393001A399E /* Caltrain Cells */,
+				CD8DDB67191C835D00D4F9D7 /* CaltrainNavigationViewController.h */,
+				CD8DDB68191C835D00D4F9D7 /* CaltrainNavigationViewController.m */,
+				CD8DDB6A191C836D00D4F9D7 /* CaltrainViewController.h */,
+				CD8DDB6B191C836D00D4F9D7 /* CaltrainViewController.m */,
+				CD501903191CCEF2001A399E /* CaltrainStopsViewController.h */,
+				CD501904191CCEF2001A399E /* CaltrainStopsViewController.m */,
+			);
+			name = "Caltrain View Controller";
 			sourceTree = "<group>";
 		};
 		CDB1DA3C191C67EE00EB156B = {
@@ -144,6 +500,10 @@
 		CDB1DA47191C67EE00EB156B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CD5018F8191CC3C1001A399E /* libxml2.dylib */,
+				CD5018F6191CC399001A399E /* libxml2.2.dylib */,
+				CD5018A7191C9DA1001A399E /* MapKit.framework */,
+				CD5018A5191C9D9C001A399E /* CoreLocation.framework */,
 				CDB1DA48191C67EE00EB156B /* Foundation.framework */,
 				CDB1DA4A191C67EE00EB156B /* CoreGraphics.framework */,
 				CDB1DA4C191C67EE00EB156B /* UIKit.framework */,
@@ -160,6 +520,8 @@
 				CD8DDB40191C6C5300D4F9D7 /* Controller */,
 				CD8DDB3F191C6C4E00D4F9D7 /* Model */,
 				CD8DDB3E191C6C4500D4F9D7 /* View */,
+				CD8DDB43191C798F00D4F9D7 /* External Libraries */,
+				CD8DDB56191C7F1D00D4F9D7 /* Resources */,
 				CDB1DA5F191C67EE00EB156B /* Images.xcassets */,
 				CDB1DA5C191C67EE00EB156B /* SFTransportation.xcdatamodeld */,
 				CDB1DA51191C67EE00EB156B /* Supporting Files */,
@@ -194,6 +556,42 @@
 				CDB1DA70191C67EE00EB156B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDBF7AB21921CFEF00A49A6D /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				CDBF7AB31921CFFA00A49A6D /* SFCaltrain */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		CDBF7AB31921CFFA00A49A6D /* SFCaltrain */ = {
+			isa = PBXGroup;
+			children = (
+				CDBF7AD81921DF4F00A49A6D /* SFStopTime.h */,
+				CDBF7AD91921DF4F00A49A6D /* SFStopTime.m */,
+				CDBF7ADE1921DF8D00A49A6D /* SFStop.h */,
+				CDBF7ADF1921DF8D00A49A6D /* SFStop.m */,
+			);
+			name = SFCaltrain;
+			sourceTree = "<group>";
+		};
+		CDBF7AB71921D12400A49A6D /* Caltrain Data */ = {
+			isa = PBXGroup;
+			children = (
+				CDBF7AB81921D12F00A49A6D /* stop_times.txt */,
+				CDBF7ABA1921D51800A49A6D /* agency.txt */,
+				CDBF7ABB1921D51800A49A6D /* calendar_dates.txt */,
+				CDBF7ABC1921D51800A49A6D /* calendar.txt */,
+				CDBF7ABD1921D51800A49A6D /* fare_attributes.txt */,
+				CDBF7ABE1921D51800A49A6D /* fare_rules.txt */,
+				CDBF7ABF1921D51800A49A6D /* routes.txt */,
+				CDBF7AC01921D51800A49A6D /* shapes.txt */,
+				CDBF7AC11921D51800A49A6D /* stops.txt */,
+				CDBF7AC21921D51800A49A6D /* trips.txt */,
+			);
+			name = "Caltrain Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +641,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Jing Dai";
 				TargetAttributes = {
+					CDB1DA44191C67EE00EB156B = {
+						DevelopmentTeam = 47E6JYGY3H;
+					};
 					CDB1DA64191C67EE00EB156B = {
 						TestTargetID = CDB1DA44191C67EE00EB156B;
 					};
@@ -271,9 +672,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD501893191C8E7B001A399E /* Caltrain.png in Resources */,
+				CD5018C7191CB207001A399E /* work_logo.png in Resources */,
+				CDBF7AC61921D51800A49A6D /* fare_attributes.txt in Resources */,
+				CD5018C5191CB1A2001A399E /* home_logo.png in Resources */,
+				CD501892191C8E7B001A399E /* BART.png in Resources */,
+				CDBF7ACB1921D51800A49A6D /* trips.txt in Resources */,
+				CD501895191C8E7B001A399E /* SF-MUNI.png in Resources */,
+				CD50190C191CDB82001A399E /* unsave_star.png in Resources */,
+				CD5018BD191CA8FD001A399E /* disclosure_indicator.png in Resources */,
+				CD50190B191CDB82001A399E /* save_star.png in Resources */,
 				CDB1DA7E191C694600EB156B /* MainStoryboard.storyboard in Resources */,
 				CDB1DA55191C67EE00EB156B /* InfoPlist.strings in Resources */,
+				CD501896191C8E7B001A399E /* VTA.png in Resources */,
+				CDBF7AC71921D51800A49A6D /* fare_rules.txt in Resources */,
+				CDBF7AC31921D51800A49A6D /* agency.txt in Resources */,
+				CDBF7AC51921D51800A49A6D /* calendar.txt in Resources */,
+				CD50189E191C94CC001A399E /* SFTrans.png in Resources */,
+				CDBF7AC41921D51800A49A6D /* calendar_dates.txt in Resources */,
+				CD5018E9191CB53C001A399E /* LICENSE in Resources */,
+				CD501894191C8E7B001A399E /* SamTrans.png in Resources */,
+				CDBF7ACA1921D51800A49A6D /* stops.txt in Resources */,
+				CD5018A4191C9680001A399E /* leftMenu@2x.png in Resources */,
+				CDBF7AC91921D51800A49A6D /* shapes.txt in Resources */,
+				CDBF7AC81921D51800A49A6D /* routes.txt in Resources */,
 				CDB1DA60191C67EE00EB156B /* Images.xcassets in Resources */,
+				CDBF7AB91921D12F00A49A6D /* stop_times.txt in Resources */,
+				CD5018BB191CA72A001A399E /* caltrain_logo.png in Resources */,
+				CD5018A3191C9680001A399E /* leftMenu.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,9 +718,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDBF7AD11921D5BB00A49A6D /* SFTransDataProvider.m in Sources */,
+				CD8DDB6C191C836D00D4F9D7 /* CaltrainViewController.m in Sources */,
+				CD8DDB47191C7A5400D4F9D7 /* UIImage+ImageWithUIView.m in Sources */,
+				CD5018C3191CAEED001A399E /* CaltrainSearchCell.m in Sources */,
+				CD5018EF191CB7F4001A399E /* TransDataProvider.m in Sources */,
+				CD8DDB54191C7D7A00D4F9D7 /* LeftMenuCell.m in Sources */,
+				CD501902191CC755001A399E /* XMLReader.m in Sources */,
+				CD5018E6191CB52E001A399E /* AFURLResponseSerialization.m in Sources */,
+				CD5018E4191CB52E001A399E /* AFURLConnectionOperation.m in Sources */,
+				CD8DDB55191C7D7A00D4F9D7 /* LeftMenuViewController.m in Sources */,
+				CD8DDB4A191C7A6800D4F9D7 /* ECSlidingViewController.m in Sources */,
+				CD5018E0191CB52E001A399E /* AFHTTPRequestOperationManager.m in Sources */,
 				CDB1DA5E191C67EE00EB156B /* SFTransportation.xcdatamodeld in Sources */,
+				CD63E3CE191E0B7A00274481 /* Route.m in Sources */,
+				CD5018E3191CB52E001A399E /* AFSecurityPolicy.m in Sources */,
+				CD5018B7191CA3BA001A399E /* CaltrainMapCell.m in Sources */,
+				CD8DDB4E191C7D3A00D4F9D7 /* InitialViewController.m in Sources */,
+				CD5018E5191CB52E001A399E /* AFURLRequestSerialization.m in Sources */,
+				CDBF7AE01921DF8D00A49A6D /* SFStop.m in Sources */,
+				CD5018E2191CB52E001A399E /* AFNetworkReachabilityManager.m in Sources */,
+				CD5018C0191CAB50001A399E /* CaltrainStationCell.m in Sources */,
 				CDB1DA5B191C67EE00EB156B /* AppDelegate.m in Sources */,
+				CD8DDB69191C835D00D4F9D7 /* CaltrainNavigationViewController.m in Sources */,
+				CD501905191CCEF2001A399E /* CaltrainStopsViewController.m in Sources */,
+				CD63E3D4191E0BB600274481 /* NextDepature.m in Sources */,
+				CDBF7ADA1921DF4F00A49A6D /* SFStopTime.m in Sources */,
+				CD5018DF191CB52E001A399E /* AFHTTPRequestOperation.m in Sources */,
 				CDB1DA57191C67EE00EB156B /* main.m in Sources */,
+				CD5018E1191CB52E001A399E /* AFHTTPSessionManager.m in Sources */,
+				CD5018CA191CB4BF001A399E /* Caltrain.m in Sources */,
+				CD63E3D1191E0B8300274481 /* Station.m in Sources */,
+				CD501908191CD74A001A399E /* CaltrainStopsCell.m in Sources */,
+				CD5018E7191CB52E001A399E /* AFURLSessionManager.m in Sources */,
+				CD63E3CA191E036B00274481 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +825,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDKROOT)/usr/include/libxml2",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -400,6 +862,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDKROOT)/usr/include/libxml2",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -411,10 +878,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SFTransportation/SFTransportation-Prefix.pch";
 				INFOPLIST_FILE = "SFTransportation/SFTransportation-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -424,10 +894,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SFTransportation/SFTransportation-Prefix.pch";
 				INFOPLIST_FILE = "SFTransportation/SFTransportation-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

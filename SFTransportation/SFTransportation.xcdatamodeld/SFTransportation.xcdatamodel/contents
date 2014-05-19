@@ -1,4 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13C1021" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="SFStop" representedClassName="SFStop" syncable="YES">
+        <attribute name="platform_code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stop_code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stop_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stop_lat" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="stop_lon" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="stop_name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SFStopTime" representedClassName="SFStopTime" syncable="YES">
+        <attribute name="arrival_time" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="departure_time" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="stop_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trip_id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="SFStop" positionX="-63" positionY="-18" width="128" height="133"/>
+        <element name="SFStopTime" positionX="-45" positionY="27" width="128" height="103"/>
+    </elements>
 </model>
